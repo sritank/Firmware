@@ -61,7 +61,6 @@ public:
 
 	void reset();
 
-	virtual void updateParams() override;
 	void update(float dt);
 
 	void setThrust(float thrust) { _thrust = thrust; };
@@ -70,6 +69,8 @@ public:
 	float getHoverThrustEstimate() const { return _hover_thrust_ekf.getHoverThrustEstimate(); }
 
 private:
+	void updateParams() override;
+
 	void publishStatus(ZeroOrderHoverThrustEkf::status &status);
 
 	ZeroOrderHoverThrustEkf _hover_thrust_ekf{};
