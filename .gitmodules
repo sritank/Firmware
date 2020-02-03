@@ -10,10 +10,6 @@
 	path = Tools/sitl_gazebo
 	url = git@github.com:sritank/sitl_gazebo.git
 	branch = master
-[submodule "src/lib/matrix"]
-	path = src/lib/matrix
-	url = git@github.com:sritank/Matrix.git
-	branch = master
 [submodule "src/lib/ecl"]
 	path = src/lib/ecl
 	url = git@github.com:sritank/ecl.git
@@ -48,4 +44,8 @@
 [submodule "src/drivers/gps/devices"]
 	path = src/drivers/gps/devices
 	url = git@github.com:sritank/GpsDrivers.git
+	branch = master
+[submodule "src/lib/matrix"]
+	path = src/lib/matrix
+	url = git@github.com:sritank/Matrix.git
 	branch = master
