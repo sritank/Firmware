@@ -6,10 +6,6 @@
 	path = src/drivers/uavcan/libuavcan
 	url = git@github.com:sritank/libuavcan.git
 	branch = px4
-[submodule "Tools/jMAVSim"]
-	path = Tools/jMAVSim
-	url = git@github.com:sritank/jMAVSim.git
-	branch = master	
 [submodule "Tools/sitl_gazebo"]
 	path = Tools/sitl_gazebo
 	url = git@github.com:sritank/sitl_gazebo.git
@@ -49,3 +45,7 @@
 [submodule "platforms/qurt/dspal"]
 	path = platforms/qurt/dspal
 	url = git@github.com:sritank/dspal.git
+[submodule "Tools/jMAVSim"]
+	path = Tools/jMAVSim
+	url = git@github.com:sritank/jMAVSim.git
+	branch = master
