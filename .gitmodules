@@ -49,3 +49,7 @@
 	path = Tools/jMAVSim
 	url = git@github.com:sritank/jMAVSim.git
 	branch = master
+[submodule "src/drivers/gps/GpsDrivers"]
+	path = src/drivers/gps/GpsDrivers
+	url = git@github.com:sritank/GpsDrivers.git
+	branch = master
