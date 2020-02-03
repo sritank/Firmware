@@ -22,10 +22,6 @@
 	path = boards/atlflight/cmake_hexagon
 	url = git@github.com:sritank/cmake_hexagon.git
 	branch = px4
-[submodule "src/drivers/gps/devices"]
-	path = src/drivers/gps/devices
-	url = git@github.com:sritank/GpsDrivers.git
-	branch = master
 [submodule "src/modules/micrortps_bridge/micro-CDR"]
 	path = src/modules/micrortps_bridge/micro-CDR
 	url = git@github.com:sritank/Micro-CDR.git
@@ -49,7 +45,7 @@
 	path = Tools/jMAVSim
 	url = git@github.com:sritank/jMAVSim.git
 	branch = master
-[submodule "src/drivers/gps/GpsDrivers"]
-	path = src/drivers/gps/GpsDrivers
+[submodule "src/drivers/gps/devices"]
+	path = src/drivers/gps/devices
 	url = git@github.com:sritank/GpsDrivers.git
 	branch = master
