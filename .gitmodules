@@ -18,10 +18,6 @@
 	path = boards/atlflight/cmake_hexagon
 	url = git@github.com:sritank/cmake_hexagon.git
 	branch = px4
-[submodule "src/modules/micrortps_bridge/micro-CDR"]
-	path = src/modules/micrortps_bridge/micro-CDR
-	url = git@github.com:sritank/Micro-CDR.git
-	branch = px4
 [submodule "platforms/qurt/dspal"]
 	path = platforms/qurt/dspal
 	url = git@github.com:sritank/dspal.git
@@ -48,4 +44,8 @@
 [submodule "cmake/configs/uavcan_board_ident"]
 	path = cmake/configs/uavcan_board_ident
 	url = git@github.com:sritank/uavcan_board_ident.git
+	branch = master
+[submodule "src/modules/micrortps_bridge/micro-CDR"]
+	path = src/modules/micrortps_bridge/micro-CDR
+	url = git@github.com:sritank/Micro-CDR.git
 	branch = master
