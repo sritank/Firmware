@@ -45,3 +45,7 @@
 	path = src/modules/micrortps_bridge/micro-CDR
 	url = git@github.com:sritank/Micro-CDR.git
 	branch = master
+[submodule "Tools/sitl_gazebo"]
+	path = Tools/sitl_gazebo
+	url = git@github.com:sritank/sitl_gazebo.git
+	branch = master
