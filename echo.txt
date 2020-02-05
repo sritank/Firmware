@@ -1,0 +1,214 @@
+[0/135] Performing configure step for 'sitl_gazebo'
+-- install-prefix: /usr/local
+-- Using C++17 compiler
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   filesystem
+--   chrono
+--   date_time
+--   atomic
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.87
+-- Found Simbody: /usr/include/simbody  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+-- Boost version: 1.65.1
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.2.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.31.1
+-- Found UUID: TRUE  
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.0.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+-- Checking for module 'gts'
+--   Found gts, version 0.7.6
+-- Found GTS: TRUE  
+-- Checking for module 'libswscale'
+--   Found libswscale, version 4.8.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 57.10.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 57.83.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 57.107.100
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 55.78.100
+-- Found AVUTIL: TRUE  
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.1.7
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.1.2
+-- Found ZIP: TRUE  
+-- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Building klt_feature_tracker without catkin
+-- Building OpticalFlow with OpenCV
+-- Found MAVLink: /home/srinath/Documents/Master/PX4work/Firmware/mavlink/include (found version "2.0") 
+-- catkin DISABLED
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread;-lpthread (found version "3.0.0") 
+-- Checking for module 'protobuf'
+--   Found protobuf, version 3.0.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default/build_gazebo
+[130/135] Linking CXX executable bin/px4
+[131/135] Performing build step for 'sitl_gazebo'
+[1/86] Running C++ protocol buffer compiler on msgs/Int32.proto
+[2/86] Running C++ protocol buffer compiler on msgs/IRLock.proto
+[3/86] Running C++ protocol buffer compiler on msgs/Imu.proto
+[4/86] Running C++ protocol buffer compiler on msgs/Float.proto
+[5/86] Running C++ protocol buffer compiler on msgs/Range.proto
+[6/86] Running C++ protocol buffer compiler on msgs/SITLGps.proto
+[7/86] Running C++ protocol buffer compiler on msgs/Wind.proto
+[8/86] Running C++ protocol buffer compiler on msgs/Groundtruth.proto
+[9/86] Running C++ protocol buffer compiler on msgs/OpticalFlow.proto
+[10/86] Running C++ protocol buffer compiler on msgs/MagneticField.proto
+[11/86] Running C++ protocol buffer compiler on msgs/Odometry.proto
+[12/86] Running C++ protocol buffer compiler on msgs/Pressure.proto
+[13/86] Running C++ protocol buffer compiler on msgs/CommandMotorSpeed.proto
+[14/86] Running C++ protocol buffer compiler on msgs/MotorSpeed.proto
+[15/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/px4flow/px4flow-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/px4flow/px4flow.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/px4flow/px4flow-gen.sdf
+[16/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/pixhawk/pixhawk-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/pixhawk/pixhawk.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/pixhawk/pixhawk-gen.sdf
+[17/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/sf10a/sf10a-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/sf10a/sf10a.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/sf10a/sf10a-gen.sdf
+[18/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/r200/r200-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/r200/r200.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/r200/r200-gen.sdf
+[19/86] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/px4flow.cpp.o
+[20/86] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/optical_flow.cpp.o
+[21/86] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/flow_px4.cpp.o
+[22/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/iris/iris.sdf
+
+[23/86] Building CXX object CMakeFiles/std_msgs.dir/Int32.pb.cc.o
+[24/86] Building CXX object CMakeFiles/sensor_msgs.dir/Pressure.pb.cc.o
+[25/86] Building CXX object CMakeFiles/nav_msgs.dir/Odometry.pb.cc.o
+[26/86] Building CXX object CMakeFiles/physics_msgs.dir/Wind.pb.cc.o
+[27/86] Building CXX object CMakeFiles/sensor_msgs.dir/MagneticField.pb.cc.o
+[28/86] Linking CXX shared library libstd_msgs.so
+[29/86] Linking CXX shared library libnav_msgs.so
+[30/86] Linking CXX shared library libphysics_msgs.so
+[31/86] Building CXX object CMakeFiles/sensor_msgs.dir/IRLock.pb.cc.o
+[32/86] Building CXX object CMakeFiles/sensor_msgs.dir/Imu.pb.cc.o
+[33/86] Building CXX object CMakeFiles/sensor_msgs.dir/Float.pb.cc.o
+[34/86] Building CXX object CMakeFiles/sensor_msgs.dir/Groundtruth.pb.cc.o
+[35/86] Building CXX object CMakeFiles/sensor_msgs.dir/Range.pb.cc.o
+[36/86] Building CXX object CMakeFiles/sensor_msgs.dir/SITLGps.pb.cc.o
+[37/86] Building CXX object CMakeFiles/sensor_msgs.dir/OpticalFlow.pb.cc.o
+[38/86] Building CXX object CMakeFiles/gazebo_magnetometer_plugin.dir/src/geo_mag_declination.cpp.o
+[39/86] Building CXX object CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o
+[40/86] Building CXX object CMakeFiles/mav_msgs.dir/MotorSpeed.pb.cc.o
+[41/86] Linking CXX shared library libsensor_msgs.so
+[42/86] Building CXX object CMakeFiles/gazebo_barometer_plugin.dir/src/gazebo_barometer_plugin.cpp.o
+[43/86] Building CXX object CMakeFiles/gazebo_gimbal_controller_plugin.dir/src/gazebo_gimbal_controller_plugin.cpp.o
+[44/86] Building CXX object CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o
+[45/86] Building CXX object CMakeFiles/gazebo_multirotor_base_plugin.dir/src/gazebo_multirotor_base_plugin.cpp.o
+[46/86] Linking CXX shared library libmav_msgs.so
+[47/86] Building CXX object CMakeFiles/gazebo_magnetometer_plugin.dir/src/gazebo_magnetometer_plugin.cpp.o
+[48/86] Building CXX object CMakeFiles/gazebo_sonar_plugin.dir/src/gazebo_sonar_plugin.cpp.o
+[49/86] Linking CXX shared library libLiftDragPlugin.so
+[50/86] Building CXX object CMakeFiles/gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o
+[51/86] Linking CXX shared library libgazebo_barometer_plugin.so
+[52/86] Building CXX object CMakeFiles/gazebo_imu_plugin.dir/src/gazebo_imu_plugin.cpp.o
+[53/86] Building CXX object CMakeFiles/gazebo_wind_plugin.dir/src/gazebo_wind_plugin.cpp.o
+[54/86] Linking CXX shared library libgazebo_multirotor_base_plugin.so
+[55/86] Linking CXX shared library libgazebo_magnetometer_plugin.so
+[56/86] Linking CXX shared library libgazebo_motor_model.so
+[57/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/3DR_gps_mag/3DR_gps_mag-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/3DR_gps_mag/3DR_gps_mag.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/3DR_gps_mag/3DR_gps_mag-gen.sdf
+[58/86] Linking CXX shared library libgazebo_imu_plugin.so
+[59/86] Linking CXX shared library libgazebo_gimbal_controller_plugin.so
+[60/86] Linking CXX shared library libgazebo_sonar_plugin.so
+[61/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/c920/c920-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/c920/c920.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/c920/c920-gen.sdf
+[62/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/mb1240-xl-ez4/mb1240-xl-ez4-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/mb1240-xl-ez4/mb1240-xl-ez4.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/mb1240-xl-ez4/mb1240-xl-ez4-gen.sdf
+[63/86] Generating /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/matrice_100/matrice_100-gen.sdf
+/home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/matrice_100/matrice_100.sdf.jinja -> /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_gazebo/models/matrice_100/matrice_100-gen.sdf
+[64/86] Linking CXX shared library libgazebo_wind_plugin.so
+[65/86] Building CXX object OpticalFlow/klt_feature_tracker/CMakeFiles/klt_feature_tracker.dir/src/trackFeatures.cpp.o
+[66/86] Linking CXX static library OpticalFlow/klt_feature_tracker/libklt_feature_tracker.a
+[67/86] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/flow_opencv.cpp.o
+[68/86] Linking CXX shared library OpticalFlow/libOpticalFlow.so
+[69/86] Building CXX object CMakeFiles/gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o
+[70/86] Building CXX object CMakeFiles/gazebo_gps_plugin.dir/src/gazebo_gps_plugin.cpp.o
+[71/86] Linking CXX shared library libgazebo_mavlink_interface.so
+[72/86] Linking CXX shared library libgazebo_gps_plugin.so
+[73/86] Building CXX object CMakeFiles/gazebo_lidar_plugin.dir/src/gazebo_lidar_plugin.cpp.o
+[74/86] Building CXX object CMakeFiles/gazebo_opticalflow_plugin.dir/src/gazebo_opticalflow_plugin.cpp.o
+[75/86] Building CXX object CMakeFiles/gazebo_irlock_plugin.dir/src/gazebo_irlock_plugin.cpp.o
+[76/86] Linking CXX shared library libgazebo_lidar_plugin.so
+[77/86] Linking CXX shared library libgazebo_irlock_plugin.so
+[78/86] Linking CXX shared library libgazebo_opticalflow_plugin.so
+[79/86] Building CXX object CMakeFiles/gazebo_vision_plugin.dir/src/gazebo_vision_plugin.cpp.o
+[80/86] Linking CXX shared library libgazebo_vision_plugin.so
+[81/86] Building CXX object CMakeFiles/gazebo_uuv_plugin.dir/src/gazebo_uuv_plugin.cpp.o
+[82/86] Linking CXX shared library libgazebo_uuv_plugin.so
+[83/86] Building CXX object CMakeFiles/gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o
+[84/86] Linking CXX shared library libgazebo_controller_interface.so
+[85/86] Building CXX object CMakeFiles/gazebo_geotagged_images_plugin.dir/src/gazebo_geotagged_images_plugin.cpp.o
+[86/86] Linking CXX shared library libgazebo_geotagged_images_plugin.so
+[133/135] No install step for 'sitl_gazebo'
+[134/135] Completed 'sitl_gazebo'
+[134/135] cd /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default/tmp && /home/srinath/Documents/Master/PX4work/Firmware/Tools/sitl_run.sh /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default/bin/px4 none gazebo none /home/srinath/Documents/Master/PX4work/Firmware /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default
+SITL ARGS
+sitl_bin: /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default/bin/px4
+debugger: none
+program: gazebo
+model: none
+src_path: /home/srinath/Documents/Master/PX4work/Firmware
+build_path: /home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default
+empty model, setting iris as default
+SITL COMMAND: "/home/srinath/Documents/Master/PX4work/Firmware/build/px4_sitl_default/bin/px4" "/home/srinath/Documents/Master/PX4work/Firmware"/ROMFS/px4fmu_common -s etc/init.d-posix/rcS -t "/home/srinath/Documents/Master/PX4work/Firmware"/test_data
+Not running simulation ($DONT_RUN is set).
